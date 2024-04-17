@@ -23,7 +23,7 @@ app.use((err, _req, res, next) => {
 // Define HTTPS server options
 const httpsOptions = {
   key: fs.readFileSync('/home/ec2-user/key.pem'), // Path to the key.pem file
-  cert: fs.readFileSync('/home/ec2-user/cert.pem') // Path to the cert.pem file
+  cert: fs.readFileSync('/etc/ssl/cert.pem') // Path to the cert.pem file
 };
 
 // Create an HTTPS server with your configuration

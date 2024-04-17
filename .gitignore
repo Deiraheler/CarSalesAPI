@@ -38,9 +38,9 @@ bower_components/
 *.sublime-workspace
 
 # Environment variables
-.env
-.env.local
-.env.*.local
+#.env
+#.env.local
+#.env.*.local
 
 # Debug log from npm
 npm-debug.log*
@@ -65,5 +65,5 @@ Thumbs.db
 .yarn-integrity
 
 # dotenv environment variables file
-.env
-.env.test
+#.env
+#.env.test
